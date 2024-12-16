@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Nobelest</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Login</h1>
+    </header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="profile.html">profile</a>
+      <a href="blog.html">product</a>
+      <a href="login.html">login</a>
+    </nav>
+    <section id="login">
+      <form action="action_page.php" method="post">
+        <div class="container2">
+          <label for="uname"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+        </div>
+
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </form>
+      <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </section>
+  </body>
+</html>
